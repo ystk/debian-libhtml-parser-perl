@@ -1,18 +1,18 @@
 Source: libhtml-parser-perl
 Section: perl
 Priority: optional
-Build-Depends: perl, debhelper (>= 7), liburi-perl,
+Build-Depends: perl, debhelper (>= 9.20120312), liburi-perl,
  libhtml-tagset-perl, libtest-pod-perl
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Krzysztof Krzyzaniak (eloy) <eloy@debian.org>,
- Damyan Ivanov <dmn@debian.org>,
+ Damyan Ivanov <dmn@debian.org>, Nicholas Bamber <nicholas@periapt.co.uk>,
  Antonio Radici <antonio@dyne.org>,
  Rene Mayorga <rmayorga@debian.org>, Jonathan Yu <jawnsy@cpan.org>,
- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>
-Standards-Version: 3.9.0
+ Salvatore Bonaccorso <carnil@debian.org>, Dominic Hargreaves <dom@earth.li>
+Standards-Version: 3.9.3
 Homepage: http://search.cpan.org/dist/HTML-Parser/
-Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/libhtml-parser-perl/
-Vcs-Browser: http://svn.debian.org/viewsvn/pkg-perl/trunk/libhtml-parser-perl/
+Vcs-Git: git://git.debian.org/pkg-perl/packages/libhtml-parser-perl.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libhtml-parser-perl.git
 
 Package: libhtml-parser-perl
 Architecture: any

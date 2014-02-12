@@ -6,7 +6,7 @@ Forwarded: not-needed
 Last-Update: 2009-08-15
 --- a/Parser.pm
 +++ b/Parser.pm
-@@ -1055,9 +1055,10 @@
+@@ -1053,9 +1053,10 @@
    $p->parse_file(shift || die) || die $!;
    print "\n";
  

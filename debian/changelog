@@ -1,3 +1,48 @@
+libhtml-parser-perl (3.69-2) unstable; urgency=low
+
+  * Bump debhelper compat level to 9 to enable hardening flags
+  * Update Standards-Version (no changes)
+
+ -- Dominic Hargreaves <dom@earth.li>  Sun, 01 Apr 2012 16:51:05 +0100
+
+libhtml-parser-perl (3.69-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * Imported Upstream version 3.69
+  * Email change: Salvatore Bonaccorso -> carnil@debian.org
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+  * Refresh offset for debian_examples_location.patch
+  * Bump Debhelper compat level to 8
+  * Bump versioned Build-Depends on debhelper (>= 8)
+  * Update copyright for debian/* packaging.
+    Update copyright years
+  * Bump Standards-Version to 3.9.2.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 15 Oct 2011 23:32:56 +0200
+
+libhtml-parser-perl (3.68-1) unstable; urgency=low
+
+  [ Salvatore Bonaccorso ]
+  * New upstream release
+  * Bump Standards-Version to 3.9.1.
+  * Refresh debian/copyright file.
+
+  [ Nicholas Bamber ]
+  * Added myself to Uploaders
+  * Added patch to address example issues: (Closes: #584088)
+    - Added comments to several scripts in eg directory.
+    - Added README to eg directory.
+    - Encoding text in certain scripts to ensure clean run on wide chars.
+    - Adding rule to examples install
+  * Added myself to copyright
+  * Updated debhelper dependency to 7.0.50~
+
+ -- Nicholas Bamber <nicholas@periapt.co.uk>  Mon, 27 Sep 2010 10:00:41 +0100
+
 libhtml-parser-perl (3.66-1) unstable; urgency=low
 
   * New upstream release
