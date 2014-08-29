@@ -1,3 +1,16 @@
+libhtml-parser-perl (3.71-1) unstable; urgency=low
+
+  * Imported Upstream version 3.70 and 3.71
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+  * Update debian/copyright file information.
+    Update format to cpyright-format 1.0 as released together with Debian
+    policy 3.9.3.
+    Update copyright years for debian/* packaging files.
+  * Bump Standards-Version to 3.9.4
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 06 Jan 2013 22:01:59 +0100
+
 libhtml-parser-perl (3.69-2) unstable; urgency=low
 
   * Bump debhelper compat level to 9 to enable hardening flags

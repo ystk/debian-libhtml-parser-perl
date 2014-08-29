@@ -9,9 +9,9 @@ Uploaders: Krzysztof Krzyzaniak (eloy) <eloy@debian.org>,
  Antonio Radici <antonio@dyne.org>,
  Rene Mayorga <rmayorga@debian.org>, Jonathan Yu <jawnsy@cpan.org>,
  Salvatore Bonaccorso <carnil@debian.org>, Dominic Hargreaves <dom@earth.li>
-Standards-Version: 3.9.3
-Homepage: http://search.cpan.org/dist/HTML-Parser/
-Vcs-Git: git://git.debian.org/pkg-perl/packages/libhtml-parser-perl.git
+Standards-Version: 3.9.4
+Homepage: https://metacpan.org/release/HTML-Parser/
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libhtml-parser-perl.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libhtml-parser-perl.git
 
 Package: libhtml-parser-perl
